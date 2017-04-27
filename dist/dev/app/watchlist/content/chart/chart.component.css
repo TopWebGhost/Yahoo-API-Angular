@@ -1,0 +1,28 @@
+.mp-chart .mdl-card__title h4 span:first-child,
+.mp-chart .mdl-card__title h4 .mp-price {
+  margin-right: 5px; }
+
+.mp-chart .mdl-card__title h4 .mp-change {
+  font-size: 1rem; }
+
+.mp-chart .mdl-card__title .mp-favorite .material-icons {
+  position: absolute; }
+
+.mp-chart .mdl-card__supporting-text {
+  height: calc(100% - 44px); }
+  .mp-chart .mdl-card__supporting-text .mp-container {
+    position: relative;
+    height: 100%; }
+  .mp-chart .mdl-card__supporting-text .mdl-tabs__tab-bar {
+    height: auto; }
+    .mp-chart .mdl-card__supporting-text .mdl-tabs__tab-bar .mdl-tabs__tab {
+      height: 30px;
+      line-height: 30px; }
+    .mp-chart .mdl-card__supporting-text .mdl-tabs__tab-bar .mdl-tabs__tab:hover {
+      color: black; }
+
+@media (max-width: 1200px) {
+  .mp-chart .mdl-tabs__tab {
+    padding: 0 8px; } }
+
+/*# sourceMappingURL=/app/watchlist/content/chart/chart.component.css.map */

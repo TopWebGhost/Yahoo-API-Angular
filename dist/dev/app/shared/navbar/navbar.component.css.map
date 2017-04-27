@@ -1,0 +1,1 @@
+{"version":3,"sources":["app/shared/navbar/navbar.component.scss"],"names":[],"mappings":"AAAA;EAEI,kBAAiB;EACjB,mBAAkB,EACnB","file":"navbar.component.css","sourcesContent":[":host {\n  .mdl-layout-title {\n    line-height: 64px;\n    padding-left: 40px;\n  }\n}\n"]}

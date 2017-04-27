@@ -1,0 +1,16 @@
+:host .mdl-grid {
+  position: absolute;
+  border: #e5e5e5 1px solid;
+  background: rgba(255, 255, 255, 0.85);
+  margin: 10px 0 0 10px; }
+  :host .mdl-grid .mdl-cell {
+    margin: 0;
+    width: auto; }
+  :host .mdl-grid .mdl-cell:first-child .mdl-list .mdl-list__item {
+    -webkit-justify-content: flex-end;
+        -ms-flex-pack: end;
+            justify-content: flex-end; }
+  :host .mdl-grid .mdl-list .mdl-list__item {
+    font-size: 0.9rem; }
+
+/*# sourceMappingURL=/app/watchlist/content/chart/d3fc/legend/legend.component.css.map */

@@ -1,0 +1,1 @@
+{"version":3,"sources":["app/watchlist/sidebar/search/search.component.scss"],"names":[],"mappings":"AAAA;EAEI,aAAY,EACb","file":"search.component.css","sourcesContent":[":host {\n  .mdl-navigation {\n    height: 100%;\n  }\n}\n"]}

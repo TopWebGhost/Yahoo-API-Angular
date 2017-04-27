@@ -1,0 +1,68 @@
+.mp-chart {
+  width: calc(100% - 62px);
+  height: calc(100% - 30px);
+  overflow: visible !important; }
+  .mp-chart .mp-svg-red {
+    fill: rgba(250, 0, 39, 0.2);
+    stroke: rgba(250, 0, 39, 0.2); }
+  .mp-chart .mp-svg-green {
+    fill: rgba(0, 205, 122, 0.2);
+    stroke: rgba(0, 205, 122, 0.2); }
+  .mp-chart svg {
+    overflow: visible;
+    display: block; }
+  .mp-chart path.area {
+    fill: url(#area-gradient);
+    fill-opacity: 1; }
+  .mp-chart path.line {
+    stroke: #1A9AF9; }
+  .mp-chart .bar > path {
+    fill-opacity: 1; }
+  .mp-chart .x-axis text {
+    font-weight: bold; }
+  .mp-chart .background {
+    stroke: none;
+    fill: none; }
+  .mp-chart .plot-area {
+    overflow: visible; }
+  .mp-chart .plot-area > g > g.y:last-child,
+  .mp-chart .y-axis > g.tick:nth-last-child(2) {
+    display: none; }
+  .mp-chart .annotation.close line {
+    display: none; }
+  .mp-chart .annotation text {
+    fill: white; }
+  .mp-chart .annotation.close path {
+    fill: #1A9AF9; }
+  .mp-chart .gridline,
+  .mp-chart .axis .domain,
+  .mp-chart .axis .tick line {
+    stroke: #DDD; }
+  .mp-chart .label {
+    color: black;
+    text-align: right;
+    display: inline-block; }
+  .mp-chart .value {
+    margin-right: 10px; }
+  .mp-chart .crosshair .callout path,
+  .mp-chart .crosshair .callout rect,
+  .mp-chart .crosshair .trackball circle {
+    fill: #444; }
+  .mp-chart .crosshair line {
+    stroke: #444;
+    stroke-dasharray: 3, 3; }
+  .mp-chart .crosshair .bottom-handle text {
+    text-anchor: middle;
+    dominant-baseline: central; }
+  .mp-chart .axis text,
+  .mp-chart .annotation text {
+    font-size: 11px;
+    font-family: inherit;
+    font-weight: 700; }
+  .mp-chart .axis .domain {
+    stroke-opacity: 0; }
+
+.mp-chart.small {
+  width: calc(100% - 16px); }
+
+/*# sourceMappingURL=/app/watchlist/content/chart/d3fc/d3fc.component.css.map */

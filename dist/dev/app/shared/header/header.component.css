@@ -1,0 +1,70 @@
+.mdl-layout__header {
+  min-height: 50px; }
+
+.mdl-layout__header-row {
+  height: 50px;
+  padding-left: 10px; }
+  .mdl-layout__header-row .mp-arrow {
+    display: none;
+    font-size: 2.5rem;
+    margin-left: -5px; }
+  .mdl-layout__header-row .mp-close,
+  .mdl-layout__header-row .mp-search {
+    display: none; }
+  .mdl-layout__header-row .mp-search-box {
+    border: none !important;
+    background: rgba(255, 255, 255, 0.16);
+    width: 300px; }
+  .mdl-layout__header-row .mp-search-box.mp-inactive {
+    background: rgba(255, 255, 255, 0.16); }
+    .mdl-layout__header-row .mp-search-box.mp-inactive .material-icons,
+    .mdl-layout__header-row .mp-search-box.mp-inactive input {
+      color: rgba(255, 255, 255, 0.7) !important; }
+    .mdl-layout__header-row .mp-search-box.mp-inactive input::-webkit-input-placeholder {
+      color: rgba(255, 255, 255, 0.7) !important; }
+    .mdl-layout__header-row .mp-search-box.mp-inactive input::-moz-placeholder {
+      color: rgba(255, 255, 255, 0.7) !important; }
+    .mdl-layout__header-row .mp-search-box.mp-inactive input:-ms-input-placeholder {
+      color: rgba(255, 255, 255, 0.7) !important; }
+    .mdl-layout__header-row .mp-search-box.mp-inactive input:-moz-placeholder {
+      color: rgba(255, 255, 255, 0.7) !important; }
+
+.mdl-layout__drawer-button {
+  height: 50px;
+  width: 50px;
+  line-height: 50px;
+  margin: 3px; }
+
+.mdl-layout-title {
+  margin-right: 15px; }
+
+@media (max-width: 720px) {
+  .mdl-layout__header-row .mdl-layout-title {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    left: 0;
+    z-index: -1;
+    line-height: 50px; }
+  .mdl-layout__header-row .mp-arrow,
+  .mdl-layout__header-row .mp-search {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex; }
+  .mdl-layout__header-row .mp-search-box.mp-inactive {
+    display: none; }
+  .mp-active-search .mp-search-container {
+    width: calc(100% - 50px); }
+  .mp-active-search .mp-close {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex; }
+  .mp-active-search .mp-search-box {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%; }
+  .mp-active-search .mp-hide-on-search {
+    display: none; } }
+
+/*# sourceMappingURL=/app/shared/header/header.component.css.map */

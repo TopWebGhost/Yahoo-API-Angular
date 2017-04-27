@@ -1,0 +1,22 @@
+:host .mdl-layout__drawer {
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+  width: 320px;
+  background: white;
+  overflow: hidden; }
+
+:host .mdl-layout__content {
+  margin-left: 320px;
+  height: 100%;
+  padding: 5px; }
+
+@media (max-width: 720px) {
+  :host .mdl-layout__content {
+    margin-left: 0; }
+  :host .mdl-layout__drawer {
+    width: 100%; }
+  :host .mdl-layout__drawer.mp-inactive {
+    -webkit-transform: translateX(-100%);
+            transform: translateX(-100%); } }
+
+/*# sourceMappingURL=/app/watchlist/watchlist.component.css.map */

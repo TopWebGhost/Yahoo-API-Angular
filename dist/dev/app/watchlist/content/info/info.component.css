@@ -1,0 +1,21 @@
+:host .mdl-card__supporting-text {
+  overflow: auto; }
+  :host .mdl-card__supporting-text .mdl-grid .mdl-cell {
+    margin: 0 8px; }
+  :host .mdl-card__supporting-text .mdl-list .mp-text {
+    border-bottom: 1px solid #dcdcdc; }
+  :host .mdl-card__supporting-text .mdl-list .mdl-list__item p {
+    font-size: 0.9rem;
+    line-height: 18px; }
+  :host .mdl-card__supporting-text .mdl-list .mdl-list__item b {
+    float: right;
+    margin-left: auto;
+    font-size: 0.9rem; }
+  :host .mdl-card__supporting-text .mdl-list .mdl-list__item:last-child {
+    border: none; }
+
+@media (max-width: 840px) {
+  :host .mdl-card__supporting-text .mdl-cell--6-col:first-child .mdl-list .mdl-list__item:last-child {
+    border-bottom: 1px solid #dcdcdc; } }
+
+/*# sourceMappingURL=/app/watchlist/content/info/info.component.css.map */

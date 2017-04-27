@@ -1,0 +1,25 @@
+:host {
+  width: 100%;
+  margin-top: 15px; }
+  :host p {
+    text-align: center;
+    margin-top: 5px;
+    font-size: 0.9rem; }
+  :host .bar {
+    width: 100%;
+    height: 6px;
+    position: relative; }
+    :host .bar .active {
+      position: absolute;
+      width: 0%; }
+    :host .bar .pin {
+      width: 10px;
+      height: 10px;
+      border-radius: 50% 50% 50% 0;
+      position: absolute;
+      -webkit-transform: rotate(-45deg);
+              transform: rotate(-45deg);
+      top: -15px;
+      margin-left: -5px; }
+
+/*# sourceMappingURL=/app/watchlist/content/info/range/range.component.css.map */

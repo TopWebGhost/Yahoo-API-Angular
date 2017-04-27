@@ -1,0 +1,9 @@
+:host > span {
+  margin: 10px;
+  display: block;
+  text-align: center; }
+  :host > span button {
+    padding-left: 10px;
+    margin-top: 10px; }
+
+/*# sourceMappingURL=/app/shared/notification/notification.component.css.map */

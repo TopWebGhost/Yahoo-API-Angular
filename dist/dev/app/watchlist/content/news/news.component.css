@@ -1,0 +1,11 @@
+:host .mdl-card__supporting-text {
+  overflow: auto; }
+  :host .mdl-card__supporting-text img {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 5px 0; }
+  :host .mdl-card__supporting-text .mp-main {
+    margin: 3px 0; }
+
+/*# sourceMappingURL=/app/watchlist/content/news/news.component.css.map */

@@ -1,0 +1,23 @@
+:host > div {
+  border: 1px solid #ccc;
+  background: white;
+  color: black;
+  border-radius: 4px;
+  padding: 4px 6px;
+  position: relative;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
+  :host > div .mdl-textfield__input {
+    border: none;
+    width: calc(100% - 30px);
+    padding: 3px;
+    font-size: 1rem;
+    line-height: 18px; }
+  :host > div .mp-clear {
+    position: absolute;
+    right: 6px;
+    line-height: 24px;
+    font-size: 1rem; }
+
+/*# sourceMappingURL=/app/shared/search-box/search-box.component.css.map */
